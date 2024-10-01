@@ -1,0 +1,30 @@
+{
+    "data": {
+        "type": "deposit",
+        "attributes": {
+            "label": "Tours Booking",
+            "tracking_id": "20241001122948",
+            "time_limit": 900,
+            "inaccuracy": "5",
+            "target_amount_requested": "10",
+            "callback_url": "https://you-domain-name.com/success/callbacks/20241001122948",
+            "confirmations_needed": 2,
+            "payment_page_redirect_url": "https://you-domain-name.com/booking/complete",
+            "payment_page_button_text": "Return to you-domain-name"
+        },
+        "relationships": {
+            "currency": {
+                "data": {
+                    "type": "currency",
+                    "id": "2145"
+                }
+            },
+            "wallet": {
+                "data": {
+                    "type": "wallet",
+                    "id": "798"
+                }
+            }
+        }
+    }
+}
